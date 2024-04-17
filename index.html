@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#251c53">
+  <title>Gusto</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Start Landing -->
+  <div class="landing">
+    <nav>
+      <h2>GUSTO</h2>
+      <div class="nav-links">
+        <ul class="links">
+          <li><a class="active" href="#home"><i class="fa-solid fa-house"></i></a></li>
+          <li><a href="#services"><i class="fa-solid fa-hand-holding-heart"></i></a></li>
+          <li><a href="#about"><i class="fa-solid fa-info"></i></a></li>
+          <li><a href="#team"><i class="fa-solid fa-people-group"></i></a></li>
+          <li><a href="#contact"><i class="fa-solid fa-envelope"></i></a></li>
+          <ul class="social">
+            <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></a></li>
+            <li><a href=""><i class="fa-brands fa-instagram"></i></a></a></li>
+            <li><a href=""><i class="fa-brands fa-pinterest-p"></i></a></li>
+          </ul>
+        </ul>
+      </div>
+      <ul class="social">
+        <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></a></li>
+        <li><a href=""><i class="fa-brands fa-instagram"></i></a></a></li>
+        <li><a href=""><i class="fa-brands fa-pinterest-p"></i></a></li>
+      </ul>
+      <div class="btn">
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+      </div>
+    </nav>
+    <div class="wrapper">
+      <div class="content">
+        <div class="page-name">
+          <h3>Home</h3>
+          <div class="shopping">
+            <i id="cart" class="fa-solid fa-cart-shopping"></i>
+            <span class="quantity">0</span>
+          </div>
+        </div>
+        <div class="gift">
+          <div class="text">
+            <p>Get a <span>paket of French fries</span> & a <span>juice of your choice</span> as a gift when you buy
+              from
+              us on White Friday or
+              Tuesday with a value that exceeds <span> $40</span>.
+            </p>
+            <div class="imgs">
+              <img src="imgs/french-fries.png" alt="">
+              <img src="imgs/orange-juice.png" alt="">
+            </div>
+          </div>
+          <div class="cards">
+            <i id="left" class="btn fa-solid fa-angle-left"></i>
+            <i id="right" class="btn fa-solid fa-angle-right"></i>
+          </div>
+        </div>
+      </div>
+      <div class="cart">
+        <h3>Your Order Here</h3>
+        <ul class="listcards"></ul>
+        <div class="total-div">
+          <div class="word">Total Price:</div>
+          <div class="total">0</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Landing -->
+
+  <!-- Start Services -->
+  <div class="serv" id="services">
+    <div class="wrapper">
+      <div class="page-name">
+        <h3>Services</h3>
+        <i class="fa-solid fa-hand-holding-heart"></i>
+      </div>
+      <div class="cards">
+        <div class="card">
+          <img src="imgs/fast-delivery.png" alt="">
+          <h4>Free Delivery</h4>
+        </div>
+        <div class="card">
+          <img src="imgs/online-booking.png" alt="">
+          <h4>Book A Table</h4>
+        </div>
+        <div class="card">
+          <img src="imgs/playground.png" alt="">
+          <h4>Kids Area</h4>
+        </div>
+        <div class="card">
+          <img src="imgs/diet.png" alt="">
+          <h4>Diet</h4>
+        </div>
+      </div>
+    </div>
+    <div class="booking reveal">
+      <div class="page-name">
+        <h3>Book A Table</h3>
+        <i class="fa-regular fa-calendar-check"></i>
+      </div>
+      <div class="form">
+        <form action="">
+          <input type="text" placeholder="Name">
+          <input type="tel" placeholder="Phone">
+          <input type="number" placeholder="Adult">
+          <input type="number" placeholder="Children">
+          <input type="date">
+          <input type="time">
+          <input type="submit" value="Book Now">
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- End Services -->
+
+  <!-- Start About -->
+  <div class="about" id="about">
+    <div class="wrapper">
+      <div class="page-name">
+        <h3>About Us</h3>
+        <i class="fa-solid fa-info"></i>
+      </div>
+      <div class="text">
+        <p><span>Our story began in 1980.</span> Gusto Restaurant offers you the most delicious food and meals that you
+          can imagine,
+          from seafood, meat or vegetables. <span>We have the most skilled chefs in the world</span>. Our branches are
+          spread all
+          over the world. Just remind us that you were <span>feeling hungry.</span></p>
+          <button class="btn">
+            <span class="btn-text">
+              <span>Follow</span>
+              <i class="fa-solid fa-share"></i>
+            </span>
+            <span class="btn-links">
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </span>
+          </button>
+      </div>
+    </div>
+    <div class="imgs reveal">
+      <div class="page-name">
+        <h3>See Us</h3>
+        <i class="fa-solid fa-photo-film"></i>
+      </div>
+      <div class="container">
+        <img src="imgs/about-2.jpg" alt="">
+        <div class="video">
+          <video src="imgs/about-3.mp4" autoplay muted loop></video>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End About -->
+
+  <!-- Start Team -->
+  <div class="team" id="team">
+    <div class="wrapper">
+      <div class="page-name">
+        <h3>Our Team</h3>
+        <i class="fa-solid fa-people-group"></i>
+      </div>
+      <div class="cards">
+        <div class="card">
+          <img src="imgs/team-1.jpg" alt="">
+          <div class="info">
+            <h3>Ahmed</h3>
+            <ul>
+              <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <img src="imgs/team-2.jpg" alt="">
+          <div class="info">
+            <h3>Ali</h3>
+            <ul>
+              <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <img src="imgs/team-3.jpg" alt="">
+          <div class="info">
+            <h3>Mohamed</h3>
+            <ul>
+              <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <img src="imgs/team-4.jpg" alt="">
+          <div class="info">
+            <h3>Ahmed</h3>
+            <ul>
+              <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="chef-info reveal">
+      <div class="page-name">
+        <h3>Chef Info</h3>
+        <i class="fa-solid fa-info"></i>
+      </div>
+      <div class="wrapper-info">
+        <p class="show">Click On Chef Card</p>
+      </div>
+    </div>
+  </div>
+  <!-- End Team -->
+
+  <!-- Start Contact -->
+  <div class="contact" id="contact">
+    <div class="wrapper">
+      <div class="page-name">
+        <h3>Contact US</h3>
+        <i class="fa-solid fa-envelope"></i>
+      </div>
+      <div class="form">
+        <form action="">
+          <div class="col">
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <input type="tel" placeholder="Phone">
+          </div>
+          <div class="col">
+            <textarea placeholder="Message"></textarea>
+            <input type="submit" value="Send">
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="get-it reveal">
+      <div class="page-name">
+        <h3>Get In Touch !</h3>
+        <i class="fa-solid fa-envelope"></i>
+      </div>
+      <div class="container">
+        <div class="info">
+          <a href="#"><i class="fa-solid fa-phone"></i><span>55-858-369</span></a>
+          <a href="#"><i class="fa-solid fa-envelope"></i><span>GustoFood@mail.com</span></a>
+          <a href="#"><i class="fa-solid fa-location-dot"></i><span>14 ST, City USA</span></a>
+        </div>
+        <ul>
+          <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- End Contact -->
+
+  <footer>
+    <h2>GUSTO</h2>
+    <div class="about-me">
+      <p>&copy;<span id="year"></span>Gusto, All Rights Reserved</p>
+      <p>Made with the heart of Mohamed Reda</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
