@@ -1,20 +1,18 @@
-window.addEventListener('scroll', reveal);
+window.addEventListener(`scroll`, reveal);
 function reveal() {
-  let reveals = document.querySelectorAll('.reveal');
-  for (let i = 0; i < reveals.length ; i++) {
+  let reveals = document.querySelectorAll(`.reveal`);
+  for (let i = 0; i < reveals.length; i++) {
     let windowheight = window.innerHeight;
     let revealTop = reveals[i].getBoundingClientRect().top;
     let revealPoint = 100;
 
     if (revealTop < windowheight - revealPoint) {
-      reveals[i].classList.add(`showme`)
-    }else {
+      reveals[i].classList.add(`showme`);
+    } else {
       reveals[i].classList.remove(`showme`);
     }
   }
 }
-
-
 let mainLinks = document.querySelectorAll(".links li a");
 let navLinks = document.querySelector(".nav-links");
 let btn = document.querySelector(".btn");
@@ -42,7 +40,6 @@ document.addEventListener("click", function (e) {
     btn.classList.remove("change");
   }
 });
-
 
 let fristCardWidth;
 let quantity = document.querySelector(".quantity");
@@ -141,10 +138,10 @@ function getProducts() {
     liCards.innerHTML = `
     <div class= "image"><img src="IMGS/${value.image}"/></div>
     <div class= "info">
-      <div class="price">$${value.price}</div>
-      <div class="sub-info">
-        <div class="title">${value.name}</div>
-      <div class="icon"</div>
+    <div class="price">$${value.price}</div>
+    <div class="sub-info">
+    <div class="title">${value.name}</div>
+    <div class="icon"</div>
     </div>
     `;
     let iconContainer = liCards.querySelector(".icon");
